@@ -1,3 +1,6 @@
+from pickle import TRUE
+
+
 print("Hello World")
 a= 5
 b=10
@@ -51,6 +54,7 @@ variable_name='Juliet'
 for letter in variable_name:
     print(letter)
 
-set_of_names=['A', 'B','C', 'D' ]
-while set_of_names.count==3:
-    print(set_of_names)
+set_of_numbers=True
+while set_of_numbers==True:
+    print('That is right')
+
