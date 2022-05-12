@@ -54,7 +54,20 @@ variable_name='Juliet'
 for letter in variable_name:
     print(letter)
 
-set_of_numbers=True
-while set_of_numbers==True:
-    print('That is right')
+# set_of_numbers=True 
+# while set_of_numbers==True:
+    # print('That is right')
+
+people_known= ['Jack', 'Peter', 'John']
+person=input('Enter the name of the person:')
+
+if person in people_known:
+    print('You may know', person)
+else : 
+    print('You do not know', person)
+
+while people_known[0]=='Jack':
+    people_known.append('Juliet')
+    print(people_known)
+    break
 
