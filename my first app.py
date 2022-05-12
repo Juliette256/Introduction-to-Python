@@ -1,3 +1,4 @@
+import numbers
 from pickle import TRUE
 
 
@@ -70,4 +71,19 @@ while people_known[0]=='Jack':
     people_known.append('Juliet')
     print(people_known)
     break
+else : print ('it is over')
 
+# EXERCISE
+Numbers=[1,2,3,4,5,6,7,8,9]
+def return_evens():
+ for number in Numbers:
+        if number %2==0:
+            evens=[]
+            evens.append(number)
+        return evens
+
+def user_choice(choice):
+    if choice== 'a':
+        return 'Add'
+    elif choice == 'q':
+        return 'quit'
